@@ -1,0 +1,14 @@
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\bin\Debug\NuVasiveInterview.exe.config
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\obj\Debug\View\NuVasiveView.baml
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\obj\Debug\View\NuVasiveView.g.cs
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\obj\Debug\App.g.cs
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\obj\Debug\NuVasiveInterview_MarkupCompile.cache
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\obj\Debug\NuVasiveInterview.g.resources
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\obj\Debug\NuVasiveInterview.Properties.Resources.resources
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\obj\Debug\NuVasiveInterview.csproj.GenerateResource.Cache
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\bin\Debug\NuVasiveInterview.exe
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\bin\Debug\NuVasiveInterview.pdb
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\obj\Debug\NuVasiveInterview.exe
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\obj\Debug\NuVasiveInterview.pdb
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\andrew\documents\visual studio 2012\Projects\NuVasiveInterview\NuVasiveInterview\obj\Debug\NuVasiveInterview_MarkupCompile.lref

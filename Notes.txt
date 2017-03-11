@@ -1,0 +1,16 @@
+6/5/13
+
+1.  I chose to keep the Model very "pure".  That is, you will find no events notifying other layers of changes of properties.  There are pros and cons
+to this approach as we can discuss.  It's certainly debated by expererts with opinions covering the whole range of options.  You will also not find
+anything to do with how you ultimately display the data.  That is, there is no collection with strings of the form: "Jim 11:15:03 AM".  This is a GUI 
+detail and certainly does not belong in the Model.  It's debatable whether or not it even belongs in the ViewModel (more on this below).
+
+2. I debated with myself and ultimately decided to have a IValueConverter class (see NameDateConverter.cs) to put the strings in the form: "Jim 11:15:03 AM".
+The alternative would be expose a property in the ViewModel with the string formatted correctly.  You would also need a ObservableCollection<String> with the strings 
+formatted correctly.  This would certainly make testing easier and is probably easier to implement than IValueConverter.  And it would result in  no code in the View Layer, 
+which some consider an unbreakable rule.  So why the IValueConverter class?  I don't consider no code-behind an unbreakable rule.  And this case is a good reason to break it.
+The format "Jim 11:15:03 AM" is completely a GUI detail and may change.  It could easily become: "Patient: Jim 6/5/13 11:15:03 AM", or something else entirely.  The only thing common is
+the idea of using a date and a name.  It seems preferable in this case to keep the changes in the View.  One could even envision a case of loading a different View based on some criteria (which nation, which hospital, etc.) and still
+using the same ViewModel.  You could of course expose different formats from the ViewModel and let the View bind to whatever particular format it wants.  I have seen this done and it
+certainly works.
+
